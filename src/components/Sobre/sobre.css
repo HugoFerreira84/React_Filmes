@@ -1,0 +1,22 @@
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    gap: 30px;
+}
+
+.titulo{
+    padding-top: 30px;
+    font-size: x-large;
+}
+
+
+
+@media(max-width: 1200px){
+    .sobre{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}

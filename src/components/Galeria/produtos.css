@@ -1,0 +1,15 @@
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 25px;
+}
+
+
+@media(max-width: 1200px){
+    .galeria{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
