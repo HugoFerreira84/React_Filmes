@@ -8,7 +8,9 @@ import { Button } from "react-bootstrap";
 
 //import do Form
 
-//import da imagens
+//import das imagens
+import img from '../../img/hugo.jpeg'
+import img1 from '../../img/Jonathan.jpg'
 
 
 function Contato() {
@@ -18,8 +20,8 @@ function Contato() {
     <body>
       <Navbar />
       <div className="container">
-        <img src={'../../src/img/hugo.jpeg'} alt="" />
-        <img src={'../../src/img/Jonathan.jpg'} alt="" />
+        <img src={img} alt="" />
+        <img src={img1} alt="" />
       </div>
 
       <Box
